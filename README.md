@@ -1,6 +1,6 @@
 # agency-agents 中文版（AI 智能体专家团队）
 
-🌐 [English (upstream)](https://github.com/msitarzewski/agency-agents) | **简体中文** | [繁體中文](README.zh-TW.md)
+🌐 **简体中文** | [繁體中文](README.zh-TW.md) | [English (upstream)](https://github.com/msitarzewski/agency-agents)
 
 > **你的 AI 梦之队** — 从前端开发到区块链安全，从小红书运营到抖音策略，每个智能体都是一位拥有独特个性、专业流程和可交付成果的专家。
 

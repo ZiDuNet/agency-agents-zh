@@ -1,8 +1,8 @@
 # agency-agents 中文版（AI 智能體專家團隊）繁體中文
 
-🌐 [English (upstream)](https://github.com/msitarzewski/agency-agents) | [簡體中文](README.md) | **繁體中文**
+🌐 [簡體中文](README.md) | **繁體中文** | [English (upstream)](https://github.com/msitarzewski/agency-agents)
 
-> **你的 AI 夢之隊** — 從前端開發到區塊鏈安全，從小紅書運營到抖音策略，每個智慧體都是一位擁有獨特個性、專業流程和可交付成果的專家。
+> **你的 AI 夢之隊** — 從前端開發到區塊鏈安全，從小紅書運營到抖音策略，每個智能體都是一位擁有獨特個性、專業流程和可交付成果的專家。
 
 Chinese community edition of [agency-agents](https://github.com/msitarzewski/agency-agents), including full translations and China-platform specific AI agents (Xiaohongshu, Douyin, WeChat, Bilibili, etc.).
 
@@ -12,7 +12,7 @@ Chinese community edition of [agency-agents](https://github.com/msitarzewski/age
 
 ### 📊 專案規模
 
-| 🤖 AI 智慧體 | 🌏 英文版翻譯 | 🇨🇳 中國平臺原創 | 🧠 支援工具 |
+| 🤖 AI 智能體 | 🌏 英文版翻譯 | 🇨🇳 中國平臺原創 | 🧠 支援工具 |
 |:---:|:---:|:---:|:---:|
 | **146** | **127** | **19** | **10 種** |
 
@@ -20,7 +20,7 @@ Chinese community edition of [agency-agents](https://github.com/msitarzewski/age
 
 ## 這是什麼？
 
-**AI 智慧體專家團隊** 是一套精心打造的 AI 智慧體人格集合。每個智慧體都是：
+**AI 智能體專家團隊** 是一套精心打造的 AI 智能體人格集合。每個智能體都是：
 
 - **專業化**：在各自領域擁有深度專長（不是通用模板）
 - **有個性**：獨特的溝通風格和思維方式
@@ -66,17 +66,17 @@ cp -r marketing/*.md ~/.claude/agents/
 
 ### 方式三：作為提示詞參考
 
-瀏覽下方智慧體列表，複製/改編你需要的內容！
+瀏覽下方智能體列表，複製/改編你需要的內容！
 
 ---
 
-## 智慧體陣容
+## 智能體陣容
 
 ### 工程部
 
 構建未來，一個 commit 一個腳印。
 
-| 智慧體 | 專長 | 適用場景 |
+| 智能體 | 專長 | 適用場景 |
 |--------|------|----------|
 | [前端開發者](engineering/engineering-frontend-developer.md) | React/Vue、UI 實現、效能最佳化 | 現代 Web 應用、畫素級 UI |
 | [後端架構師](engineering/engineering-backend-architect.md) | API 設計、資料庫架構、可擴充套件性 | 服務端系統、微服務 |
@@ -105,7 +105,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 讓產品好看、好用、有驚喜。
 
-| 智慧體 | 專長 | 適用場景 |
+| 智能體 | 專長 | 適用場景 |
 |--------|------|----------|
 | [UI 設計師](design/design-ui-designer.md) | 視覺設計、元件庫、設計系統 | 介面設計、品牌一致性 |
 | [UX 研究員](design/design-ux-researcher.md) | 使用者測試、行為分析 | 使用者研究、可用性測試 |
@@ -122,7 +122,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 **國內平臺：**
 
-| 智慧體 | 專長 | 適用場景 |
+| 智能體 | 專長 | 適用場景 |
 |--------|------|----------|
 | [小紅書運營](marketing/marketing-xiaohongshu-operator.md) ⭐ | 種草筆記、達人合作、爆款內容 | 小紅書獲客、品牌種草 |
 | [抖音策略師](marketing/marketing-douyin-strategist.md) ⭐ | 短影片策劃、演算法最佳化、直播帶貨 | 抖音增長、短影片營銷 |
@@ -146,7 +146,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 **出海營銷：**
 
-| 智慧體 | 專長 | 適用場景 |
+| 智能體 | 專長 | 適用場景 |
 |--------|------|----------|
 | [TikTok 策略師](marketing/marketing-tiktok-strategist.md) | 病毒式內容、演算法最佳化 | 出海短影片營銷 |
 | [Twitter 互動官](marketing/marketing-twitter-engager.md) | 即時互動、思想領袖 | 出海品牌社交 |
@@ -156,7 +156,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 **通用：**
 
-| 智慧體 | 專長 | 適用場景 |
+| 智能體 | 專長 | 適用場景 |
 |--------|------|----------|
 | [增長駭客](marketing/marketing-growth-hacker.md) | 快速獲客、病毒迴圈、實驗 | 使用者增長、轉化最佳化 |
 | [內容創作者](marketing/marketing-content-creator.md) | 多平臺內容、編輯日曆 | 內容策略、品牌故事 |
@@ -170,7 +170,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 精準投放，每一分預算都花在刀刃上。
 
-| 智慧體 | 專長 | 適用場景 |
+| 智能體 | 專長 | 適用場景 |
 |--------|------|----------|
 | [付費媒體審計師](paid-media/paid-media-auditor.md) | 廣告賬戶審計、預算最佳化 | 廣告效果診斷、降本增效 |
 | [廣告創意策略師](paid-media/paid-media-creative-strategist.md) | 廣告素材策劃、A/B 測試 | 廣告創意最佳化 |
@@ -184,7 +184,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 從線索到成交，讓每一單都有章法。
 
-| 智慧體 | 專長 | 適用場景 |
+| 智能體 | 專長 | 適用場景 |
 |--------|------|----------|
 | [客戶拓展策略師](sales/sales-account-strategist.md) | 大客戶拓展、ABM 策略 | 重點客戶攻關 |
 | [銷售教練](sales/sales-coach.md) | 銷售輔導、技能提升 | 團隊銷售能力建設 |
@@ -199,7 +199,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 在正確的時間做正確的事。
 
-| 智慧體 | 專長 | 適用場景 |
+| 智能體 | 專長 | 適用場景 |
 |--------|------|----------|
 | [Sprint 排序師](product/product-sprint-prioritizer.md) | 敏捷規劃、功能優先順序 | Sprint 規劃、資源分配 |
 | [趨勢研究員](product/product-trend-researcher.md) | 市場情報、競品分析 | 市場調研、機會評估 |
@@ -210,7 +210,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 讓專案按時按質交付。
 
-| 智慧體 | 專長 | 適用場景 |
+| 智能體 | 專長 | 適用場景 |
 |--------|------|----------|
 | [高階專案經理](project-management/project-manager-senior.md) | 需求拆解、範圍管控 | 大型專案管理 |
 | [專案牧羊人](project-management/project-management-project-shepherd.md) | 跨團隊協調、進度跟蹤 | 多團隊專案協調 |
@@ -223,7 +223,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 打破一切，讓使用者不必承受。
 
-| 智慧體 | 專長 | 適用場景 |
+| 智能體 | 專長 | 適用場景 |
 |--------|------|----------|
 | [證據收集者](testing/testing-evidence-collector.md) | 截圖 QA、視覺驗證 | UI 測試、Bug 文件 |
 | [現實檢驗者](testing/testing-reality-checker.md) | 證據驅動認證、質量關卡 | 生產就緒評估 |
@@ -238,7 +238,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 運營的中流砥柱。
 
-| 智慧體 | 專長 | 適用場景 |
+| 智能體 | 專長 | 適用場景 |
 |--------|------|----------|
 | [客服響應者](support/support-support-responder.md) | 客戶服務、工單處理 | 客戶支援、使用者體驗 |
 | [資料分析師](support/support-analytics-reporter.md) | 資料分析、儀表盤 | 商業智慧、KPI 追蹤 |
@@ -253,9 +253,9 @@ cp -r marketing/*.md ~/.claude/agents/
 
 不走尋常路的專家。
 
-| 智慧體 | 專長 | 適用場景 |
+| 智能體 | 專長 | 適用場景 |
 |--------|------|----------|
-| [智慧體編排者](specialized/agents-orchestrator.md) | 多智慧體協調、工作流管理 | 複雜專案的多智慧體協作 |
+| [智能體編排者](specialized/agents-orchestrator.md) | 多智能體協調、工作流管理 | 複雜專案的多智能體協作 |
 | [提示詞工程師](specialized/prompt-engineer.md) ⭐ | LLM 提示詞設計、最佳化、評測 | 提示詞開發、AI 應用最佳化 |
 | [身份信任架構師](specialized/agentic-identity-trust.md) | AI 身份驗證、信任框架 | AI 系統安全與信任 |
 | [資料整合師](specialized/data-consolidation-agent.md) | 多源資料整合、儀表盤 | 資料彙總與視覺化 |
@@ -263,7 +263,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [報告分發師](specialized/report-distribution-agent.md) | 報告分發、多渠道推送 | 自動化報告分發 |
 | [銷售資料提取師](specialized/sales-data-extraction-agent.md) | 銷售資料採集、結構化 | CRM 資料處理 |
 | [合規審計師](specialized/compliance-auditor.md) | SOC 2/ISO 27001/HIPAA 合規 | 合規審計、安全認證 |
-| [應付賬款智慧體](specialized/accounts-payable-agent.md) | 發票處理、付款自動化 | 財務流程自動化 |
+| [應付賬款智能體](specialized/accounts-payable-agent.md) | 發票處理、付款自動化 | 財務流程自動化 |
 | [身份圖譜操作員](specialized/identity-graph-operator.md) | 身份解析、多源匹配 | 使用者身份治理 |
 | [文化智慧策略師](specialized/specialized-cultural-intelligence-strategist.md) | 文化洞察、跨文化設計 | 全球化產品、本地化策略 |
 | [開發者佈道師](specialized/specialized-developer-advocate.md) | 開發者關係、DX 工程 | 開發者社群、技術推廣 |
@@ -281,7 +281,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 構建下一代空間互動體驗。
 
-| 智慧體 | 專長 | 適用場景 |
+| 智能體 | 專長 | 適用場景 |
 |--------|------|----------|
 | [visionOS 空間工程師](spatial-computing/visionos-spatial-engineer.md) | visionOS、SwiftUI 空間 UI | Apple Vision Pro 開發 |
 | [macOS Metal 空間工程師](spatial-computing/macos-spatial-metal-engineer.md) | Metal、GPU 渲染 | macOS 高效能圖形 |
@@ -296,7 +296,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 **通用：**
 
-| 智慧體 | 專長 | 適用場景 |
+| 智能體 | 專長 | 適用場景 |
 |--------|------|----------|
 | [遊戲設計師](game-development/game-designer.md) | 遊戲機制、系統設計、平衡性 | 遊戲核心玩法設計 |
 | [關卡設計師](game-development/level-designer.md) | 關卡布局、節奏控制、空間敘事 | 關卡設計、場景構建 |
@@ -306,7 +306,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 **Unity：**
 
-| 智慧體 | 專長 | 適用場景 |
+| 智能體 | 專長 | 適用場景 |
 |--------|------|----------|
 | [Unity 架構師](game-development/unity/unity-architect.md) | Unity 架構、ECS、效能最佳化 | Unity 專案架構 |
 | [Unity 編輯器工具開發者](game-development/unity/unity-editor-tool-developer.md) | 編輯器擴充套件、自定義工具 | Unity 工具鏈開發 |
@@ -315,7 +315,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 **Unreal Engine：**
 
-| 智慧體 | 專長 | 適用場景 |
+| 智能體 | 專長 | 適用場景 |
 |--------|------|----------|
 | [Unreal 多人遊戲架構師](game-development/unreal-engine/unreal-multiplayer-architect.md) | Replication、網路同步 | UE 聯機架構 |
 | [Unreal 系統工程師](game-development/unreal-engine/unreal-systems-engineer.md) | Gameplay 框架、C++ 系統 | UE 核心系統開發 |
@@ -324,7 +324,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 **Godot：**
 
-| 智慧體 | 專長 | 適用場景 |
+| 智能體 | 專長 | 適用場景 |
 |--------|------|----------|
 | [Godot 遊戲指令碼開發者](game-development/godot/godot-gameplay-scripter.md) | GDScript、場景樹、訊號系統 | Godot 遊戲邏輯 |
 | [Godot 多人遊戲工程師](game-development/godot/godot-multiplayer-engineer.md) | MultiplayerAPI、網路同步 | Godot 聯機遊戲 |
@@ -332,7 +332,7 @@ cp -r marketing/*.md ~/.claude/agents/
 
 **Roblox Studio：**
 
-| 智慧體 | 專長 | 適用場景 |
+| 智能體 | 專長 | 適用場景 |
 |--------|------|----------|
 | [Roblox 虛擬形象創作者](game-development/roblox-studio/roblox-avatar-creator.md) | 虛擬形象、UGC 資產 | Roblox 角色設計 |
 | [Roblox 體驗設計師](game-development/roblox-studio/roblox-experience-designer.md) | 體驗設計、遊戲迴圈 | Roblox 遊戲設計 |
@@ -347,8 +347,8 @@ cp -r marketing/*.md ~/.claude/agents/
 | [高管簡報](strategy/EXECUTIVE-BRIEF.md) | NEXUS 戰略概覽 |
 | [快速上手](strategy/QUICKSTART.md) | 5 分鐘上手指南 |
 | [完整戰略](strategy/nexus-strategy.md) | 運營綱領全文 |
-| [智慧體啟用提示詞](strategy/coordination/agent-activation-prompts.md) | 各智慧體的啟用指令 |
-| [交接模板](strategy/coordination/handoff-templates.md) | 智慧體間的交接規範 |
+| [智能體啟用提示詞](strategy/coordination/agent-activation-prompts.md) | 各智能體的啟用指令 |
+| [交接模板](strategy/coordination/handoff-templates.md) | 智能體間的交接規範 |
 | Phase 0-6 Playbooks | [發現](strategy/playbooks/phase-0-discovery.md) · [策略](strategy/playbooks/phase-1-strategy.md) · [基礎](strategy/playbooks/phase-2-foundation.md) · [構建](strategy/playbooks/phase-3-build.md) · [加固](strategy/playbooks/phase-4-hardening.md) · [上線](strategy/playbooks/phase-5-launch.md) · [運營](strategy/playbooks/phase-6-operate.md) |
 | 場景 Runbook | [創業 MVP](strategy/runbooks/scenario-startup-mvp.md) · [企業功能](strategy/runbooks/scenario-enterprise-feature.md) · [事故響應](strategy/runbooks/scenario-incident-response.md) · [營銷活動](strategy/runbooks/scenario-marketing-campaign.md) |
 
@@ -384,7 +384,7 @@ cp -r marketing/*.md ~/.claude/agents/
 ./scripts/install.sh                    # 自動檢測並安裝
 ./scripts/install.sh --tool openclaw    # 安裝到指定工具
 
-# 檢查智慧體檔案格式
+# 檢查智能體檔案格式
 ./scripts/lint-agents.sh
 ```
 
@@ -393,7 +393,7 @@ cp -r marketing/*.md ~/.claude/agents/
 <details>
 <summary><strong>Claude Code</strong></summary>
 
-智慧體直接從倉庫複製到 `~/.claude/agents/`，無需轉換。
+智能體直接從倉庫複製到 `~/.claude/agents/`，無需轉換。
 
 ```bash
 ./scripts/install.sh --tool claude-code
@@ -408,7 +408,7 @@ cp -r marketing/*.md ~/.claude/agents/
 <details>
 <summary><strong>GitHub Copilot</strong></summary>
 
-智慧體直接從倉庫複製到 `~/.github/agents/`，無需轉換。
+智能體直接從倉庫複製到 `~/.github/agents/`，無需轉換。
 
 ```bash
 ./scripts/install.sh --tool copilot
@@ -416,14 +416,14 @@ cp -r marketing/*.md ~/.claude/agents/
 
 在 GitHub Copilot 中啟用：
 ```
-使用前端開發者智慧體幫我審查這個元件。
+使用前端開發者智能體幫我審查這個元件。
 ```
 </details>
 
 <details>
 <summary><strong>OpenClaw</strong></summary>
 
-OpenClaw 會將每個智慧體拆分為三個檔案：
+OpenClaw 會將每個智能體拆分為三個檔案：
 - `SOUL.md` — 身份、記憶、溝通風格、關鍵規則
 - `AGENTS.md` — 核心使命、技術交付物、工作流程
 - `IDENTITY.md` — 名稱與簡介
@@ -472,7 +472,7 @@ cd /your/project
 
 在 Qwen Code 中啟用：
 ```
-使用前端開發者智慧體幫我審查這個元件。
+使用前端開發者智能體幫我審查這個元件。
 ```
 
 > 提示：安裝後在 Qwen Code 中執行 `/agents manage` 重新整理，或重啟會話。
@@ -505,7 +505,7 @@ cd /your/project
 <details>
 <summary><strong>Aider</strong></summary>
 
-所有智慧體編譯為單個 `CONVENTIONS.md` 檔案，Aider 會自動讀取。
+所有智能體編譯為單個 `CONVENTIONS.md` 檔案，Aider 會自動讀取。
 
 ```bash
 ./scripts/convert.sh --tool aider
@@ -515,14 +515,14 @@ cd /your/project
 
 在 Aider 會話中啟用：
 ```
-使用前端開發者智慧體幫我重構這個元件。
+使用前端開發者智能體幫我重構這個元件。
 ```
 </details>
 
 <details>
 <summary><strong>Windsurf</strong></summary>
 
-所有智慧體編譯為單個 `.windsurfrules` 檔案。
+所有智能體編譯為單個 `.windsurfrules` 檔案。
 
 ```bash
 ./scripts/convert.sh --tool windsurf
@@ -531,9 +531,9 @@ cd /your/project
 ```
 </details>
 
-### 修改智慧體後重新生成
+### 修改智能體後重新生成
 
-新增新智慧體或編輯現有智慧體後，重新生成整合檔案：
+新增新智能體或編輯現有智能體後，重新生成整合檔案：
 
 ```bash
 ./scripts/convert.sh               # 重新生成所有工具
@@ -542,11 +542,11 @@ cd /your/project
 
 ---
 
-## 中國市場原創智慧體
+## 中國市場原創智能體
 
-以下智慧體不是翻譯，是專門為中國平臺和市場做的：
+以下智能體不是翻譯，是專門為中國平臺和市場做的：
 
-| 智慧體 | 平臺/領域 | 特色 |
+| 智能體 | 平臺/領域 | 特色 |
 |--------|-----------|------|
 | [小紅書運營](marketing/marketing-xiaohongshu-operator.md) | 小紅書 | 種草筆記、達人合作、爆款公式 |
 | [抖音策略師](marketing/marketing-douyin-strategist.md) | 抖音 | 短影片策劃、演算法邏輯、直播話術 |
@@ -597,7 +597,7 @@ cd /your/project
 
 ## 貢獻
 
-歡迎參與！翻譯智慧體、改進內容、新增中國平臺智慧體都行。詳見 [CONTRIBUTING.md](CONTRIBUTING.md)。
+歡迎參與！翻譯智能體、改進內容、新增中國平臺智能體都行。詳見 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ---
 
@@ -616,7 +616,7 @@ MIT License — 自由使用，商業或個人均可。
 
 <div align="center">
 
-**AI 智慧體專家團隊：你的 AI 夢之隊**
+**AI 智能體專家團隊：你的 AI 夢之隊**
 
 [Star 本專案](https://github.com/jnMetaCode/agency-agents-zh) · [提交 Issue](https://github.com/jnMetaCode/agency-agents-zh/issues) · [貢獻程式碼](https://github.com/jnMetaCode/agency-agents-zh/pulls)
 
