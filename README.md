@@ -14,13 +14,13 @@ Chinese community edition of [agency-agents](https://github.com/msitarzewski/age
 
 | 🤖 AI 智能体 | 🌏 英文版翻译 | 🇨🇳 中国市场原创 | 🧠 支持工具 |
 |:---:|:---:|:---:|:---:|
-| **151** | **129** | **22** | **10 种** |
+| **157** | **135** | **22** | **10 种** |
 
 ---
 
 ## 这是什么？
 
-**151 个即插即用的 AI 专家人格**——每个都有独特的专业技能、沟通风格和可落地的工作流，不是通用模板。
+**157 个即插即用的 AI 专家人格**——每个都有独特的专业技能、沟通风格和可落地的工作流，不是通用模板。
 
 ---
 
@@ -274,6 +274,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [文档生成器](specialized/specialized-document-generator.md) | PDF/PPTX/DOCX/XLSX 生成 | 程序化文档创建 |
 | [工作流架构师](specialized/specialized-workflow-architect.md) | 工作流树设计、交接契约、故障恢复 | 系统流程规格化 |
 | [自动化治理架构师](specialized/automation-governance-architect.md) | 自动化审计、n8n 工作流治理、风险评估 | 业务自动化决策 |
+| [Salesforce 架构师](specialized/specialized-salesforce-architect.md) | Salesforce 多云设计、集成、数据模型 | 企业级 Salesforce 架构 |
 | [医疗健康营销合规师](specialized/healthcare-marketing-compliance.md) ⭐ | 医疗广告法、NMPA、互联网医疗 | 医疗健康营销合规 |
 
 ### 🥽 空间计算部
@@ -342,6 +343,18 @@ cp -r marketing/*.md ~/.claude/agents/
 | [Roblox 虚拟形象创作者](game-development/roblox-studio/roblox-avatar-creator.md) | 虚拟形象、UGC 资产 | Roblox 角色设计 |
 | [Roblox 体验设计师](game-development/roblox-studio/roblox-experience-designer.md) | 体验设计、游戏循环 | Roblox 游戏设计 |
 | [Roblox 系统脚本工程师](game-development/roblox-studio/roblox-systems-scripter.md) | Luau 脚本、数据存储 | Roblox 游戏开发 |
+
+### 📖 学术部
+
+为叙事设计、世界构建和文化研究提供学术级支撑。
+
+| 智能体 | 专长 | 适用场景 |
+|--------|------|----------|
+| [人类学家](academic/academic-anthropologist.md) | 文化体系、仪式、民族志 | 世界观设计、文化构建 |
+| [地理学家](academic/academic-geographer.md) | 自然与人文地理、空间分析 | 地图构建、场景设计 |
+| [历史学家](academic/academic-historian.md) | 历史分析、史料考证 | 历史题材验证、年代设定 |
+| [叙事学家](academic/academic-narratologist.md) | 叙事理论、故事结构 | 剧情设计、角色弧线 |
+| [心理学家](academic/academic-psychologist.md) | 行为心理、人格理论 | 角色心理塑造、动机设计 |
 
 ### 🎯 战略部
 
