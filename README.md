@@ -2,7 +2,7 @@
 
 🌐 **简体中文** | [繁體中文](README.zh-TW.md) | [English (upstream)](https://github.com/msitarzewski/agency-agents)
 
-> **187 个即插即用的 AI 专家角色** — 覆盖工程、设计、营销、产品、游戏、安全、金融等 18 个部门。不是通用提示词模板，每个智能体都有独立的人设、专业流程和可交付成果。支持 Claude Code / Cursor / Copilot 等 14 种 AI 编程工具。
+> **193 个即插即用的 AI 专家角色** — 覆盖工程、设计、营销、产品、游戏、安全、金融等 18 个部门。不是通用提示词模板，每个智能体都有独立的人设、专业流程和可交付成果。支持 Claude Code / Cursor / Copilot 等 14 种 AI 编程工具。
 
 [agency-agents](https://github.com/msitarzewski/agency-agents) 的中文社区版。在完整翻译上游的基础上，新增了 46 个中国市场原创智能体（小红书、抖音、微信、B站、飞书、钉钉等平台运营，以及跨境电商、政务ToG、医疗合规等垂直领域）。
 
@@ -15,7 +15,7 @@
 
 | 🤖 AI 智能体 | 🌏 英文版翻译 | 🇨🇳 中国市场原创 | 🧠 支持工具 | 🏢 部门 |
 |:---:|:---:|:---:|:---:|:---:|
-| **187** | **141** | **46** | **14 种** | **18 个** |
+| **193** | **147** | **46** | **14 种** | **18 个** |
 
 ---
 
@@ -808,7 +808,7 @@ DEERFLOW_SKILLS_DIR=/path/to/deerflow/skills/custom ./scripts/install.sh --tool 
 | 项目 | 说明 |
 |------|------|
 | [ai-coding-guide](https://github.com/jnMetaCode/ai-coding-guide) | AI 编程工具实战指南 — 66 个 Claude Code 技巧 + 9 款工具最佳实践 + 可复制配置模板 |
-| [agency-orchestrator](https://github.com/jnMetaCode/agency-orchestrator) | 多智能体编排引擎 — 用 YAML 编排 187 个角色协作，支持 DeepSeek/Claude/OpenAI/Ollama，零代码 |
+| [agency-orchestrator](https://github.com/jnMetaCode/agency-orchestrator) | 多智能体编排引擎 — 用 YAML 编排 193 个角色协作，支持 DeepSeek/Claude/OpenAI/Ollama，零代码 |
 | [superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) | AI 编程超能力 · 中文版 — 20 个 skills，让你的 AI 编程助手真正会干活 |
 | [shellward](https://github.com/jnMetaCode/shellward) | AI 智能体安全中间件 — 注入检测、数据防泄露、命令安全、零依赖、MCP Server |
 
@@ -829,7 +829,7 @@ MIT License — 自由使用，商业或个人均可。
 
 <div align="center">
 
-**187 个 AI 专家角色，14 种工具支持，即装即用**
+**193 个 AI 专家角色，14 种工具支持，即装即用**
 
 [⭐ Star 本项目](https://github.com/jnMetaCode/agency-agents-zh) · [提交 Issue](https://github.com/jnMetaCode/agency-agents-zh/issues) · [贡献代码](https://github.com/jnMetaCode/agency-agents-zh/pulls) · [QQ 交流群](https://qm.qq.com/q/EeNQA9xCxy)
 
