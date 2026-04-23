@@ -14,18 +14,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # 生成版本（用时间戳，永不报错）
-      - name: Generate version
+      - name: 读取版本号
         id: version
-        run: echo "tag=v$(date +%Y%m%d%H%M)" >> $GITHUB_OUTPUT
+        run: |
+          PKG_VER=$(node -p "require('./package.json').version")
+          echo "pkg_version=${PKG_VER}" >> $GITHUB_OUTPUT
+          echo "tag=v${PKG_VER}-build$(date +%Y%m%d%H%M)" >> $GITHUB_OUTPUT
 
-      # 打包（最简单写法，100%成功）
       - name: Pack
         run: zip -r release.zip . -x ".git/*" ".github/*" "scripts/*"
 
-      # 发布
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.version.outputs.tag }}
           files: release.zip
+          body: |
+            版本: ${{ steps.version.outputs.pkg_version }}
+            commit: ${{ github.sha }}
