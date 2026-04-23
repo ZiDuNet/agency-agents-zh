@@ -29,11 +29,14 @@ jobs:
           echo "pkg_version=${PKG_VER}" >> $GITHUB_OUTPUT
 
       - name: 打包
-        run: tar -czf agency-agents-zh-dist.tar.gz \
-          academic/ design/ engineering/ finance/ game-development/ \
-          hr/ legal/ marketing/ paid-media/ product/ project-management/ \
-          sales/ spatial-computing/ specialized/ strategy/ supply-chain/ \
-          support/ testing/ README.md AGENT-LIST.md LICENSE package.json
+        run: |
+          # 全量打包，排除不需要的目录
+          tar -czf agency-agents-zh-dist.tar.gz \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='scripts' \
+            --exclude='node_modules' \
+            .
 
       - name: 创建 GitHub Release
         uses: softprops/action-gh-release@v2
