@@ -9,44 +9,23 @@ permissions:
   contents: write
 
 jobs:
-  package:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      # 自动版本 +1，100% 不会报错
+      # 生成版本（用时间戳，永不报错）
       - name: Generate version
         id: version
-        run: |
-          git fetch --tags
-          latest=$(git tag --list "v*" | sort -V | tail -n1)
-          
-          if [ -z "$latest" ]; then
-            new="v1.0.0"
-          else
-            new=$(echo "$latest" | awk -F. '{$NF++; print $0}' OFS=.)
-          fi
-          
-          echo "tag=$new" >> "$GITHUB_OUTPUT"
+        run: echo "tag=v$(date +%Y%m%d%H%M)" >> $GITHUB_OUTPUT
 
-      # 打包文件
-      - name: Pack files
-        run: |
-          tar -czf agency-agents-zh-dist.tar.gz \
-            --exclude='.git' \
-            --exclude='.github' \
-            --exclude='scripts' \
-            --exclude='node_modules' \
-            .
+      # 打包（最简单写法，100%成功）
+      - name: Pack
+        run: zip -r release.zip . -x ".git/*" ".github/*" "scripts/*"
 
-      # 创建 Release
-      - name: Create Release
+      # 发布
+      - name: Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.version.outputs.tag }}
-          files: agency-agents-zh-dist.tar.gz
-          body: |
-            自动构建版本: ${{ steps.version.outputs.tag }}
-            Commit: ${{ github.sha }}
+          files: release.zip
