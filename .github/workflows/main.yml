@@ -1,11 +1,10 @@
 # agency-agents-zh 自动打包发布
-# 无需编译，直接打包 markdown 文件
+# 自动获取最新版本号 +1 发布
 name: Package & Release
 
 on:
   push:
     branches: [main]
-    tags: ['v*']
   workflow_dispatch:
 
 permissions:
@@ -16,21 +15,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 必须拉全历史，才能读取所有 tag
 
-      - name: 读取版本号
+      # 自动获取最新 tag 版本 +1
+      - name: 自动生成版本号 +1
         id: version
         run: |
-          PKG_VER=$(node -p "require('./package.json').version")
-          if [[ "${GITHUB_REF}" == refs/tags/v* ]]; then
-            echo "tag=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
-          else
-            echo "tag=v${PKG_VER}-build$(date +%Y%m%d%H%M)" >> $GITHUB_OUTPUT
-          fi
-          echo "pkg_version=${PKG_VER}" >> $GITHUB_OUTPUT
+          # 获取所有版本标签，按版本排序取最新一个
+          git fetch --tags
+          latest_tag=$(git tag -l "v*" | sort -V | tail -n 1)
 
+          if [ -z "$latest_tag" ]; then
+            # 没有版本 → 初始 v1.0.0
+            new_tag="v1.0.0"
+          else
+            # 版本号 +1（支持 v1.0.0 → v1.0.1）
+            new_tag=$(echo $latest_tag | awk -F. '{$NF++; print} ' OFS=.)
+          fi
+
+          echo "tag=$new_tag" >> $GITHUB_OUTPUT
+          echo "version=$new_tag" >> $GITHUB_OUTPUT
+
+      # 打包文件
       - name: 打包
         run: |
-          # 全量打包，排除不需要的目录
           tar -czf agency-agents-zh-dist.tar.gz \
             --exclude='.git' \
             --exclude='.github' \
@@ -38,12 +47,12 @@ jobs:
             --exclude='node_modules' \
             .
 
+      # 创建 Release
       - name: 创建 GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.version.outputs.tag }}
-          prerelease: ${{ !startsWith(github.ref, 'refs/tags/v') }}
           files: agency-agents-zh-dist.tar.gz
           body: |
-            版本: ${{ steps.version.outputs.pkg_version }}
-            commit: ${{ github.sha }}
+            自动构建版本：${{ steps.version.outputs.version }}
+            提交：${{ github.sha }}
